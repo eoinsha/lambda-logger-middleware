@@ -15,9 +15,9 @@ npm install lambda-logger-middleware --save
 
 ## Example using Pino
 
-[http://getpino.io](Pino) is an excellent, fast, structured JSON logger. It can be configured with `lambda-logger-middleware` to only output `DEBUG` logs when you are running with `STAGE=dev` or with [https://www.npmjs.com/package/serverless-offline](serverless-offline) as follows.
+[Pino](http://getpino.io) is an excellent, fast, structured JSON logger. It can be configured with `lambda-logger-middleware` to only output `DEBUG` logs when you are running with `STAGE=dev` or with [serverless-offline](https://www.npmjs.com/package/serverless-offline) as follows.
 
-```
+```javascript
 const loggerMiddleware = require('lambda-logger-middleware')
 
 function handler (event, context) { ... }

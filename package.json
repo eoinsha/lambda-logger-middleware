@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "A configurable event logging middelware for Lambda",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eoinsha/lambda-logger-middleware.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo"
   },
   "keywords": [
     "aws",
@@ -13,5 +17,5 @@
     "pino"
   ],
   "author": "Eoin Shanaghy <eoin.shanaghy@fourtheorem.com>",
-  "license": "ISC"
+  "license": "MIT"
 }
