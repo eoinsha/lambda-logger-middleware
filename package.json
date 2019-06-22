@@ -1,0 +1,17 @@
+{
+  "name": "lambda-logger-middleware",
+  "version": "1.0.0",
+  "description": "A configurable event logging middelware for Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "logging",
+    "pino"
+  ],
+  "author": "Eoin Shanaghy <eoin.shanaghy@fourtheorem.com>",
+  "license": "ISC"
+}
