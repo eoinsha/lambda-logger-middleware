@@ -1,6 +1,6 @@
 {
   "name": "lambda-logger-middleware",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A configurable event logging middelware for Lambda",
   "main": "index.js",
   "repository": {
