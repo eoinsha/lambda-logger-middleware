@@ -14,6 +14,6 @@ module.exports = ({ logger = console } = {}) => ({
   onError: (handler, next) => {
     const { error: err } = handler
     logger.error({ err }, 'Error in handler')
-    return next()
+    return next(err)
   }
 })
