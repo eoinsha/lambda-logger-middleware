@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/npm/l/slic-starter.svg)](./LICENSE)
 
-A simple, configurable logging middleware for [https://middy.js.org/](Middy).
+A simple, configurable logging middleware for [Middy](https://middy.js.org).
 
 This middleware logs events and responses using your logger's `debug` function and errors using its `error` function.
 The logger can be replaced (default is `console`) so you can configure your logger to log at the appropriate level.
